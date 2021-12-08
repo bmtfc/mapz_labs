@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.17.0.GIT-lbmacos and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: /Users/mac/study/politech/sem_4/mapz/Lab3/cmake-build-debug/Lab3</line>
+</preamble>
+
+<pid>76051</pid>
+<ppid>69331</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/Users/mac/vlgd/bin/valgrind</exe>
+    <arg>--tool=memcheck</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=/private/var/folders/fh/fchw7_7s5cx1ssrb9_nq7kj40000gn/T/clion-valgrindf17d48eb-068b-475a-835d-1f2f7379fcf9/valgrind_output_%p</arg>
+    <arg>--gen-suppressions=all</arg>
+    <arg>--leak-check=full</arg>
+    <arg>--leak-resolution=med</arg>
+    <arg>--track-origins=yes</arg>
+    <arg>--vgdb=no</arg>
+  </vargv>
+  <argv>
+    <exe>/Users/mac/study/politech/sem_4/mapz/Lab3/cmake-build-debug/Lab3</exe>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.000 </time>
+</status>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:00.000 </time>
+</status>
+
+<errorcounts>
+</errorcounts>
+
+<suppcounts>
+</suppcounts>
+
+</valgrindoutput>
+
+
